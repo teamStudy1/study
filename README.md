@@ -1,6 +1,6 @@
 # Onboarding flow
 
-자신의 폴더를 생성해서 develop 브랜치에 merge하기 
+자신의 폴더를 생성 후 폴더안에 wednesday.txt 파일 생성 후 develop 브랜치에 merge하기 
 
 - 이슈제목 : onboarding flow practice
 - 브랜치 생성 전략 따라서 생성
