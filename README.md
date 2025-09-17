@@ -6,6 +6,7 @@
 - 브랜치 생성 전략 따라서 생성
 - commit convention 따라 작성
 - PR 등록 후 리뷰어 팀원 모두!
+- 팀원 모두 승인 시 merge
 
 ### Overview
 
