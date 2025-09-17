@@ -1,6 +1,11 @@
 # Onboarding flow
 
-임의로 적어두겠습니다! 논의 후 함께 수정해 봐요!
+자신의 폴더를 생성해서 develop 브랜치에 merge하기 
+
+- 이슈제목 : onboarding flow practice
+- 브랜치 생성 전략 따라서 생성
+- commit convention 따라 작성
+- PR 등록 후 리뷰어 팀원 모두!
 
 ### Overview
 
