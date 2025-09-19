@@ -10,17 +10,14 @@
 이 과정은 한번만 하면 된다
 
 # git add .
-프로젝트 충돌 날 수 있어서 
-
-git add 새 파일명.txt 를 추천
 그 후 코드를 수정하거나 새로운 파일이 추가 됐다면
 
 3가지 명령어 순서대로 진행하면 된다 
 
 # 파일올리기
 
-git add 파일명.확장자
-현재 폴더에서 이 이름을 가진 파일을 올려줘 
+git add .
+현재 폴더에 있는 모든 파일들을 커밋할 준비를 해줘!
 
 # 기록남기기 
 
@@ -28,9 +25,9 @@ git commit -m "fitst commit"
 -m 은 메시지의 줄임말
 "first commit"은 첫번째 기록 
 
-# git push -u origin main 
+# git push -u origin madin 
 
-push는 '내가 기록한 내용들을 깃 허브 저장소로 보내줘 '
+pust는 '내가 기록한 내용들을 깃 허브 저장소로 보내줘 '
 -u origin main 은 origin 이라는 이름의 저장소에 있는 main이라는 브랜치로 보내줘라는 의미
 
 # git pull
@@ -39,8 +36,6 @@ push는 '내가 기록한 내용들을 깃 허브 저장소로 보내줘 '
 방식은 크게 2가지로 
 
 1. git fetch : 깃 허브에 있는 최신 코드의 변경사항을 내 컴퓨터로만 다운로드 
-변경사항 확인
-
 2. git merge : 다운로드한 변경사항을 현재 내 컴퓨터에 있는 코드에 합치는 명령어 
 
 git pull은 git fetch 와 git merge 를 한번에 실행해주는 명령어 
@@ -67,13 +62,13 @@ git chechout develop
 
 2. git checkout -b feat/seonggyun-1week-wed
 
-checkout -b 는 새로운 브랜치를 만들고 , 그 브랜치로 바로 이동하라는 뜻 
-이 때 모든 작업은 feat/seonggyun-1week-wed 브랜치에서 진행된다 
+eheckout -b 는 새로운 브랜치를 만들고 , 그 브랜치로 바로 이동하라는 뜻 
+이 때 모든 작업은 feature/seonggyun-1week-wed 브랜치에서 진행된다 
 
 # 파일 생성 및 커밋하기 
 
-wednesday.txt 파일을 만들고, 우리가 정한 커밋 규칙에 맞춰 기록 남기기 
-1. wednesday.txt 파일 만들기
+wednesday.txt 파일을 만들고, 우리가 정한 커밋 규칙에 맞춰거 기록 남기기 
+1. wednesday.txt 파일 만들기 dir
 2. dir 또는 ls 명령어로 파일이 잘 만들어졌는지 확인하기
 
 # 커밋할 준비하기
@@ -91,7 +86,7 @@ git checkout develop
 
 # 브랜치 합치기 
 git merge feature/add-wednesday-file
-이 명령어을 입력하면 wednesday.txt 파일이 develop 브랜치에도 나타 날 것임 
+이 명어를 입력하면 wednesday.txt 파일이 develop 브랜치에도 나탈 것임 
 
 # 깃허브에 올리기 (push)
 
@@ -99,7 +94,6 @@ git push origin develop
 origin develop 은 origin 이라는 원격 저장소의 develop 브랜치로 올려라 
 
 깃 허브에 접속해서 develop 브랜치를 확인하면 파일이 잘 올라가 있는 것을 볼 수 있다 
-
 # 정리
 
 git inti (이 폴더를 git으로 관리)
