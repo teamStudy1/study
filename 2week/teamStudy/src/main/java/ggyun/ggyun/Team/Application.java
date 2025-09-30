@@ -1,4 +1,4 @@
-package ggyun;
+package ggyun.ggyun.Team;
 
 public class Application {
 }
